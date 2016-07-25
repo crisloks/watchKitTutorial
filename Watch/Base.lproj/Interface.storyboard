@@ -119,6 +119,44 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="496" y="157.75"/>
+        </scene>
+        <!--CheckIn-->
+        <scene sceneID="aPY-ae-ZG6">
+            <objects>
+                <controller identifier="CheckIn" id="Ztg-dG-o6I">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="vVh-XU-Gle">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="Sxj-mY-gJq">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MAN" id="lh4-jv-Rfp">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="ozI-pg-e84">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label alignment="left" verticalAlignment="center" text="SFO" id="RbZ-jf-fdZ">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button alignment="center" verticalAlignment="center" id="0Ov-73-rcq">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" radius="39" id="im9-u4-U33">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="ZQr-CY-7Il">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="368" y="459"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
