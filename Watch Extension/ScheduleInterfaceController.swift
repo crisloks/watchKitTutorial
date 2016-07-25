@@ -5,6 +5,7 @@ import Foundation
 struct Constants {
     static let kFlightsRow = "FlightRow"
     static let kFlightController = "Flight"
+    static let kCheckInController = "CheckIn"
 }
 
 
@@ -26,7 +27,8 @@ class ScheduleInterfaceController: WKInterfaceController {
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
         let flight = flights[rowIndex]
-        presentControllerWithName(Constants.kFlightController, context: flight)
+        let controllers = [Constants.kFlightController, Constants.kCheckInController]
+        presentControllerWithNames(controllers, contexts: [flight, flight])
     }
 
 }
