@@ -10,10 +10,11 @@
 		3DECE53D1D4578EB0008847F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DECE53B1D4578EB0008847F /* Interface.storyboard */; };
 		3DECE53F1D4578EB0008847F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DECE53E1D4578EB0008847F /* Assets.xcassets */; };
 		3DECE5461D4578EB0008847F /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DECE5451D4578EB0008847F /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3DECE54B1D4578EB0008847F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE54A1D4578EB0008847F /* InterfaceController.swift */; };
 		3DECE54D1D4578EB0008847F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DECE54C1D4578EB0008847F /* ExtensionDelegate.swift */; };
 		3DECE54F1D4578EB0008847F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DECE54E1D4578EB0008847F /* Assets.xcassets */; };
 		3DECE5531D4578EB0008847F /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3DECE5391D4578EB0008847F /* Watch.app */; };
+		3DECE55B1D4580FA0008847F /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
+		3DECE55C1D4581030008847F /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
 		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
@@ -73,7 +74,6 @@
 		3DECE53E1D4578EB0008847F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DECE5401D4578EB0008847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DECE5451D4578EB0008847F /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DECE54A1D4578EB0008847F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		3DECE54C1D4578EB0008847F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3DECE54E1D4578EB0008847F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DECE5501D4578EB0008847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,7 +121,6 @@
 		3DECE5491D4578EB0008847F /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				3DECE54A1D4578EB0008847F /* InterfaceController.swift */,
 				3DECE54C1D4578EB0008847F /* ExtensionDelegate.swift */,
 				3DECE54E1D4578EB0008847F /* Assets.xcassets */,
 				3DECE5501D4578EB0008847F /* Info.plist */,
@@ -302,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DECE54F1D4578EB0008847F /* Assets.xcassets in Resources */,
+				3DECE55B1D4580FA0008847F /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DECE54D1D4578EB0008847F /* ExtensionDelegate.swift in Sources */,
-				3DECE54B1D4578EB0008847F /* InterfaceController.swift in Sources */,
+				3DECE55C1D4581030008847F /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
