@@ -8,11 +8,11 @@
         <!--My Fligths-->
         <scene sceneID="ejr-99-fzJ">
             <objects>
-                <controller identifier="Schedule" title="My Fligths" id="gAV-ed-FB1">
+                <controller identifier="Schedule" title="My Fligths" id="gAV-ed-FB1" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
                         <table alignment="left" id="xrd-gR-NZv">
                             <items>
-                                <tableRow identifier="FlightRow" id="zwc-9I-TIt">
+                                <tableRow identifier="FlightRow" id="zwc-9I-TIt" customClass="FlightRowController" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="MUt-BR-2Px">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="upU-zp-ifm">
@@ -49,10 +49,21 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="NM4-SD-4jX" id="EKD-7L-KJY"/>
+                                        <outlet property="flightNumberLabel" destination="3al-Z5-ZJI" id="ycv-cx-liL"/>
+                                        <outlet property="originLabel" destination="ER0-ih-S9P" id="nid-VN-e9E"/>
+                                        <outlet property="planeImage" destination="YtG-ZM-kGb" id="GTR-Y1-gPo"/>
+                                        <outlet property="separator" destination="upU-zp-ifm" id="0zy-0F-rjb"/>
+                                        <outlet property="statusLabel" destination="NYK-xe-n3I" id="IT1-Mb-sn3"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="flightsTable" destination="xrd-gR-NZv" id="cms-h3-Grg"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="229" y="155"/>
